@@ -25,7 +25,7 @@ module.exports = {
 }
 ```
 ### 安装webpack依赖
-> cnpm install --save-dev webpack webpack-dev-server
+> cnpm install --save-dev webpack webpack-cli webpack-dev-server
 
 ### 安装babel依赖
 > cnpm install --save-dev babel-loader@7.15 babel-core babel-preset-es2015
