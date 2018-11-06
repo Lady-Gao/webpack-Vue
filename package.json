@@ -4,7 +4,9 @@
   "description": "",
   "main": "webpack.config.js",
   "scripts": {
-    "dev": "webpack-dev-server --content-base ./ --port 8000"
+    "dev": "webpack-dev-server --content-base ./ --port 8000",
+    "watchfile": "node ./src/until/buildFile/watchFile.js",
+    "buildfile": "node ./src/until/buildFile/index.js"
   },
   "keywords": [],
   "author": "GAOyanan",
@@ -21,6 +23,10 @@
     "webpack-dev-server": "^3.1.10"
   },
   "dependencies": {
-    "vue": "^2.5.17"
+    "chokidar": "^2.0.4",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1"
   }
 }
